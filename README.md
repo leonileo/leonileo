@@ -24,7 +24,6 @@ I’m currently pursuing a Software Engineering Program at ALX, specializing in 
 - System Design & Security<br>
 <p> ALX has been a game-changer, instilling in me the values of hard work, resilience, and a mindset to go all-in on every challenge I face.<br><br>💡 Passion: I’m drawn to new challenges and love working on innovative web projects that push boundaries.<br><br>🤝 Let’s Collaborate!<br>I’m excited to collaborate on web-related projects, especially fresh ones where creativity and problem-solving shine.<br><br>Let’s build something amazing together! 🌟</p>
 
-
 ## 🌐 Socials:
 [![Mail](https://img.shields.io/badge/Email-light)](kalebwendwessen@gmail.com.) [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/kalebwendwessen) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kalebleo4) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kaleb-wendwessen) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@kalebwendwessen) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/kalebleonileo)
 
