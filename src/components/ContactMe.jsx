@@ -71,8 +71,8 @@ const ContactMe = () => {
 
           <div className="bottom">
             <div className="name block space-y-2">
-              <label htmlFor="name" className="block">Message</label>
-              <textarea id="name" value={message} onChange={(e) => setMessage(e.target.value)} className="p-2 bg-tag xl:h-[15vh] max-h-[25vh] w-full block rounded resize-none">
+              <label htmlFor="message" className="block">Message</label>
+              <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} className="p-2 bg-tag xl:h-[15vh] max-h-[25vh] w-full block rounded resize-none">
               </textarea>
             </div>
             <button type="submit" className="bg-primary hover:bg-secondary transition-all my-2 p-1 rounded text-center w-full flex items-center justify-center ">{loading ? <>Submiting <span className="ml-2 block h-5 w-5 rounded-full border-r-2 animate-spin"></span></>: "Submit"}</button>            
