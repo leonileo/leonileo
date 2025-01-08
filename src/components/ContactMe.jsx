@@ -61,18 +61,18 @@ const ContactMe = () => {
           <div className="top flex gap-2">
             <div className="name block space-y-2">
               <label htmlFor="name" className="block">Name</label>
-              <input id="name" value={name} onChange={(e) => setName(e.target.value)} className="bg-tag xl:h-[3vh] block rounded" type="text" />
+              <input id="name" value={name} onChange={(e) => setName(e.target.value)} className="p-2 bg-tag xl:h-[3vh] max-h-[12vh] block rounded" type="text" />
             </div>
             <div className="name block space-y-2">
               <label htmlFor="email" className="block">Email</label>
-              <input id="email" value={email} onChange={(e) => setEmail(e.target.value)} className="bg-tag xl:h-[3vh] block rounded" type="email" />
+              <input id="email" value={email} onChange={(e) => setEmail(e.target.value)} className="p-2 bg-tag xl:h-[3vh] max-h-[12vh] block rounded" type="email" />
             </div>
           </div>
 
           <div className="bottom">
             <div className="name block space-y-2">
               <label htmlFor="name" className="block">Message</label>
-              <textarea id="name" value={message} onChange={(e) => setMessage(e.target.value)} className="p-2 bg-tag h-[15vh] w-full block rounded resize-none">
+              <textarea id="name" value={message} onChange={(e) => setMessage(e.target.value)} className="p-2 bg-tag xl:h-[15vh] max-h-[25vh] w-full block rounded resize-none">
               </textarea>
             </div>
             <button type="submit" className="bg-primary hover:bg-secondary transition-all my-2 p-1 rounded text-center w-full flex items-center justify-center ">{loading ? <>Submiting <span className="ml-2 block h-5 w-5 rounded-full border-r-2 animate-spin"></span></>: "Submit"}</button>            
