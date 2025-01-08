@@ -34,7 +34,7 @@ const Tools = () => {
       </div>
 
       {/* tools div */}
-      <div className="tools grid xl:grid-cols-4 grid-cols-3 gap-4 my-5">
+      <div className="tools grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-4 my-5">
         {/* loop through the tools. */}
         {tools.map((tools, x) => (
           <div key={x} className=" tool border-2 rounded-lg border-tool-stroke p-2 flex gap-5 hover:bg-secondary transition-all cursor-pointer">
