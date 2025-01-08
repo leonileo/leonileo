@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="socials">
           <p className="font-bold mb-1">Socials</p>
-          <a className="block" href="https://https://github.com/leonileo" target="_blank" >Github</a>
+          <a className="block" href="https://github.com/leonileo" target="_blank" >Github</a>
           <a className="block" href="https://www.linkedin.com/in/kaleb-wendwessen/" target="_blank" >Linkedin</a>
           <a className="block" href="https://x.com/kalebleonileo" target="_blank" >x (twitter)</a>
           <a className="block" href="https://instagram.com/kalebleo4" target="_blank" >Instagram</a>
