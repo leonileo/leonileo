@@ -4,7 +4,7 @@ const Education = () => {
   const etimeline = [
     {date: "2023 / 11 - 2025 / 01", title: "Software Engineering - ALX", description: "An intensive, year-long program designed to equip participants with industry-ready skills. The course demands a commitment of 10 hours per day, focusing on hands-on projects, real-world problem-solving, and mastering both frontend and backend development technologies."},
     {date: "2023 / 01 - 2023 / 02", title: "Python computer programming course - Brighter generation", description: "An intensive 2-week program focused on Python programming, leadership, project management, and real-world problem-solving. The course was delivered by MIT students, combining technical expertise with practical insights to prepare participants for real-world challenges."},
-    {date: "2021 - 2023", title: "Highschool diploma - Dejazmach Wondirad seinor secondary school", description: "Successfully completed high school education, demonstrating strong academic performance and foundational skills."},
+    {date: "2021 - 2023", title: "Highschool diploma - Dejazmach Wondirad senior secondary school", description: "Successfully completed high school education, demonstrating strong academic performance and foundational skills."},
     {date: "2022 / 01 - 2022 / 02", title: "Responsive web design - Free code camp", description: "An in-depth course focused on building and designing responsive websites using HTML, CSS, and modern web design principles. It emphasizes accessibility, mobile-first design, and creating user-friendly interfaces across various devices."},
   ]
 

@@ -1,14 +1,16 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import banner from '../assets/logo.png'
+import my_gym from '../assets/my_gym.png'
+import ethio_amba from '../assets/ethio_amba.png'
 
 const Projects = () => {
 
   // projects
   const projects = [
-    {banner: banner, name: "MY GYM - Full Stack Web App", tags: ["mvp", "web app", "fitness"], link: "https://my-gym.onrender.com"},
+    {banner: my_gym, name: "MY GYM - Full Stack Web App", tags: ["mvp", "web app", "fitness"], link: "https://my-gym.onrender.com"},
     {banner: banner, name: "Restaurant web app", tags: ["mvp", "web app", "restaurant"], link: "https://rwa-jg4r.onrender.com/"},
     {banner: banner, name: "Warka", tags: ["e-commerce", "web app"], link: "https://warka.onrender.com/"},
-    {banner: banner, name: "Ethioamba - Full Stack Web App", tags: ["mvp", "web app", "startup"], link: "https://ethioamba.com/"},
+    {banner: ethio_amba, name: "Ethioamba - Full Stack Web App", tags: ["mvp", "web app", "startup"], link: "https://ethioamba.com/"},
     {banner: banner, name: "Fleet-Ease", tags: ["mvp", "web app", "fleet"], link: "https://fleet-ease.onrender.com/"},
     {banner: banner, name: "Expense Tracker", tags: ["mvp", "web app", "fintech"], link: "https://expensetracker-8kxf.onrender.com/"},
   ]
@@ -21,10 +23,11 @@ const Projects = () => {
         {/* loop through projects */}
         {projects.map((pr, x) => 
           <div key={x} className='bg-about rounded-md p-5 space-y-6'>
-            <div className="top rounded h-[40vh] flex animate-pulse hover:animate-none" style={{
+            <div className={`top rounded h-[40vh] flex hover:animate-none ${pr.banner === banner ? "animate-pulse": "animate-none"}`} style={{
               background: `url(${pr.banner})`,
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              backgroundSize: `${pr.banner !== banner ? "contain" : ""}`
             }}></div>
             <div className="bottom flex items-center justify-between">
               <div className="left space-y-2">
