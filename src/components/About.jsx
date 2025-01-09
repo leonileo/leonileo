@@ -18,10 +18,10 @@ const About = () => {
 
   return (
     <div id="about" className="my-5 pt-12 text-light">
-      <div className=" w-full flex bg-about pl-16 py-8 rounded-xl">
+      <div className=" w-full md:flex space-y-5 bg-about md:pl-16 p-5 py-8 rounded-xl">
         {/* left section */}
         <div className="left w-full space-y-8">
-          <div className="top xl:w-[47%] w-[70%] text-pretty">
+          <div className="top xl:w-[47%] md:w-[70%] text-pretty">
             <h3 className="text-md">{info}</h3>
           </div>
           <div className="bottom flex gap-[22px]">

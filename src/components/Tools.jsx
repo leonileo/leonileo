@@ -30,11 +30,11 @@ const Tools = () => {
     <div className="my-5 pt-12 text-light space-y-16">
       <div className="top space-y-2">
         <h1 className='text-title font-bold'>Essential tools i use</h1>
-        <p className="w-[50%]">Discover the powerful tools and technologies i use to create exceptional, high-performing websites & applications.</p>
+        <p className="md:w-[50%]">Discover the powerful tools and technologies i use to create exceptional, high-performing websites & applications.</p>
       </div>
 
       {/* tools div */}
-      <div className="tools grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-4 my-5">
+      <div className="tools grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-4 my-5">
         {/* loop through the tools. */}
         {tools.map((tools, x) => (
           <div key={x} className=" tool border-2 rounded-lg border-tool-stroke p-2 flex gap-5 hover:bg-secondary transition-all cursor-pointer">

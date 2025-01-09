@@ -27,12 +27,12 @@ const Hero = () => {
         <div className="text xl:text-4xl text-2xl xl:w-[340px] ">
           <h2 className="leading-normal">{heading}</h2>
         </div>
-        <div className="cta flex gap-[32px]">
+        <div className="cta md:flex md:space-y-0 space-y-4 gap-[32px]">
           <a href="/cv.pdf" download="kaleb_wendwessen_cv.pdf"
-            className="bg-primary text-nowrap border-2 border-transparent transition-all hover:bg-secondary hover:border-primary p-2 py-3 rounded-md capitalize flex gap-3 items-center"
+            className="bg-primary text-nowrap w-fit border-2 border-transparent transition-all hover:bg-secondary hover:border-primary p-2 py-3 rounded-md capitalize flex gap-3 items-center"
            >
             Download my CV <HiDownload /> </a>
-          <button className="flex gap-3 items-center bg-secondary text-nowrap border-2 border-primary transition-all hover:bg-primary p-2 rounded-md">Contact me <CiAt /> </button>
+          <a href="#contact" className="flex gap-3 w-fit items-center bg-secondary text-nowrap border-2 border-primary transition-all hover:bg-primary p-2 rounded-md">Contact me <CiAt /> </a>
         </div>
       </div>
     </div>

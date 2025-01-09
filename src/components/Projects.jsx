@@ -29,7 +29,7 @@ const Projects = () => {
             <div className="bottom flex items-center justify-between">
               <div className="left space-y-2">
                 <div className="title font-semibold">{pr.name}</div>
-                <div className="tags flex gap-4">
+                <div className="tags flex md:flex-nowrap flex-wrap gap-4">
                   {/* loop through the pr tags */}
                   {pr.tags.map((e, x) => (
                     <p key={x} className='bg-tag hover:bg-nav cursor-pointer transition-all  p-4 py-1 rounded'>{e}</p>

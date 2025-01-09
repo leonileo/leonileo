@@ -1,11 +1,8 @@
+/* eslint-disable react/prop-types */
 import IMAGE from '../assets/logo.png'
-import { useState } from 'react'
 import { CiMenuFries } from "react-icons/ci";
 
-const Navbar = () => {
-
-    const [active, setActive] = useState(0);
-    const [activeTab, setActiveTab] = useState(false);
+const Navbar = ({ active, setActive, activeTab, setActiveTab}) => {
 
     // links
     const links = [
@@ -50,15 +47,15 @@ const Navbar = () => {
                             <div className="links-small">
                                 {links.map((nl, x) =>
                                     <a 
-                                    className={`block w-fit ${active === nl.num && "bg-opacity-100 transition-all translate-y-[-2px]"} bg-opacity-0 transition-all bg-[#FFFFFF] rounded-md p-2`} 
-                                    onClick={() => setActiveTab(false)} 
+                                    className={`block w-fit ${active === x && " bg-[#FFFFFF]"} ${active === nl.num && "bg-opacity-100 transition-all translate-y-[-2px]"} bg-opacity-0 transition-all rounded-md p-2`} 
+                                    onClick={() => { setActive(x); setActiveTab(false)}} 
                                     key={x} href={nl.link}>
                                         {nl.title}
                                     </a>
                                 )}
                             </div>
                             {/* contact btn */}
-                            <a href="#contact" className='bg-white p-2 rounded-md text-nav'>Contact me</a>
+                            <a href="#contact" onClick={() => {setActive(false); setActiveTab(false)}} className='bg-white p-2 rounded-md text-nav'>Contact me</a>
                         </div>
                     </div>
                 </div>

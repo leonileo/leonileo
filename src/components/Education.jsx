@@ -9,10 +9,10 @@ const Education = () => {
   ]
 
   return (
-    <div id="education" className="my-5 pt-12 text-light space-y-16">
+    <div id="education" className="my-5 pt-12 text-light md:space-y-16 space-y-10">
       <h1 className='text-title font-bold'>My Education</h1>
       {/* timeline */}
-      <div className="timeline mx-10 border-l-about border-l-2 rounded-sm space-y-10">
+      <div className="timeline md:mx-10 border-l-about border-l-2 rounded-sm space-y-10">
         {/* loop through education array */}
         {etimeline.map((time, x) =>
         <div key={x} className="card px-10 relative">
