@@ -6,11 +6,11 @@ const Projects = () => {
   // projects
   const projects = [
     {banner: banner, name: "MY GYM - Full Stack Web App", tags: ["mvp", "web app", "fitness"], link: "https://my-gym.onrender.com"},
-    {banner: banner, name: "Restaurant web app", tags: ["mvp", "web app", "restaurant"], link: "https://"},
-    {banner: banner, name: "Warka", tags: ["e-commerce", "web app"], link: "https://"},
-    {banner: banner, name: "Ethioamba - Full Stack Web App", tags: ["mvp", "web app", "startup"], link: "https://"},
-    {banner: banner, name: "Fleet-Ease", tags: ["mvp", "web app", "fleet"], link: "https://"},
-    {banner: banner, name: "Expense Tracker", tags: ["mvp", "web app", "fintech"], link: "https://"},
+    {banner: banner, name: "Restaurant web app", tags: ["mvp", "web app", "restaurant"], link: "https://rwa-jg4r.onrender.com/"},
+    {banner: banner, name: "Warka", tags: ["e-commerce", "web app"], link: "https://warka.onrender.com/"},
+    {banner: banner, name: "Ethioamba - Full Stack Web App", tags: ["mvp", "web app", "startup"], link: "https://ethioamba.com/"},
+    {banner: banner, name: "Fleet-Ease", tags: ["mvp", "web app", "fleet"], link: "https://fleet-ease.onrender.com/"},
+    {banner: banner, name: "Expense Tracker", tags: ["mvp", "web app", "fintech"], link: "https://expensetracker-8kxf.onrender.com/"},
   ]
 
   return (
